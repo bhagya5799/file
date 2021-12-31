@@ -1,0 +1,15 @@
+f=open("file-qn4.txt","r")
+lines=f.readlines()
+for i in lines:
+    if "delhi" in i:
+        k=open("fdelhi.txt","a")
+        k.write(i)
+        print(k)
+    elif "shimla" in i:
+        b=open("shimla.txt","a")
+        b.write(i)
+        print(b)
+    else:
+        c=open("fother.txt","a")
+        c.write(i)
+        print(c)

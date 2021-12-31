@@ -1,0 +1,5 @@
+f=open("file3.txt","w")
+f.write("i forgot the save")
+f.close()
+f=open("file3.txt","r")
+print(f.read())
